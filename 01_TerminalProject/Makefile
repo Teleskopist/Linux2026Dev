@@ -1,4 +1,4 @@
 Show: Show.c
-	gcc Show.c -lncursesw -o Show
+	gcc -Wall -g -O2 -Wextra -std=c11 Show.c -lncursesw -o Show
 clean:
 	rm -f Show
